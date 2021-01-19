@@ -45,11 +45,11 @@ def ROC():
             name = 'Davis Bertans'
         else:
             print("その背番号の選手はいません。")
-            name = 'x'
+            name = ''
         pub.publish(name)
         rate.sleep()
 
-    if __name__ == '__main__':
-        try:
-            ROC()
-        except rospy.ROSInterruptException: pass
+if __name__ == '__main__':
+   try:
+        ROC()
+    except rospy.ROSInterruptException: pass
