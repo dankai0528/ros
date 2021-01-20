@@ -28,4 +28,4 @@ $rostopic echo /result
 https://www.youtube.com/watch?v=8ZXcsZjTJNk&feature=youtu.be
 
 # ライセンス
-GNU General Public License v3.0
+BSD 3-Clause Licanse
